@@ -1,4 +1,4 @@
-unique_name: factinternetsales
+unique_name: factinternetsales -dg
 object_type: dataset
 label: factinternetsales
 columns:
