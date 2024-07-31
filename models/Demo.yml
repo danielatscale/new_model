@@ -1,0 +1,14 @@
+unique_name: Demo
+object_type: model
+label: Demo
+metrics:
+  - unique_name: Total Sales Amount
+relationships:
+  - unique_name: factinternetsales -dg_productkey_to_Product_Product SKU
+    from:
+      dataset: factinternetsales -dg
+      join_columns:
+        - productkey
+    to:
+      dimension: Product
+      level: Product SKU
